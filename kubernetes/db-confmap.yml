@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+  namespace: troy-namespace
+data:
+  DB_USER: admin
+  DB_HOST: db
+  DB_PORT: "5432"
+  DB_DATABASE: twogeDB
